@@ -1,0 +1,31 @@
+---
+title: "Political consumerism: understanding individual propensity to boycott"
+author: "Chiara Pievani - ID 84347A"
+format: pdf
+editor: visual
+---
+
+::: {style="text-align: center;"}
+*What factors are associated with individual’s likelihood of boycotting products as a form of political dissent across European countries?*
+:::
+
+
+## Data and variable operationalization
+
+The dataset used is the ESS Round 11 Multilevel dataset. In its original format, it contains over forty-six thousand observations across around nine thousand three hundred variables that collect data both at the individual and regional, national level. 
+
+To try better understand the relationship I have described in the previous section, I have selected fifteen of these variables.
+
+
+
+## Model choice and statistical justification
+
+## Results
+
+## Interpretation and substantive insights
+
+## Limitations and reflection
+
+## Bibliography
+
+## AI disclosure
