@@ -245,7 +245,7 @@ Attitudes towards climate change and political ideology reinforce one another in
 
 The coefficients for all the other predictors overall remain unchanged compared to the previous model. 
 
-Finally, regarding the random effects section of the regression table, the variance of the random slope for climate concern (0.04, SD = )
+Finally, regarding the random effects section of the regression table, the variance of the random slope for climate concern (0.04, SD = 0.2)
 
 ## Substantive insights
 
