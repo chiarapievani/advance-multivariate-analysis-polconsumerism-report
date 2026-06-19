@@ -6,9 +6,6 @@ empty_model <- glmer(
   family = binomial(link = "logit")
 )
 
-sjPlot::tab_model(empty_model,
-                  title = "Table 1. Empty logistic multilevel model predicting boycott participation")
-
 # Model 1 - separate predictors ----------------------------------------
 
 model_1a <- glmer(
@@ -40,18 +37,6 @@ model_3 <- glmer(
   data = data, family = binomial(link = "logit")
 )
 
-
-table_mod1 <- tab_model(model_1a, model_1b,
-          transform = NULL,
-          title = "Table 2. Regression coefficients for political and environmental predictors with random intercepts for countries")
-
-table_mod2 <- tab_model(model_2,
-          transform = NULL,
-          title = "Table 3. Regression coefficients for all individual predictors with random intercepts for countries")
-
-table_mod3 <- tab_model(model_3,
-                        transform = NULL,
-                        title = "Table 4. Regression coefficients for full multilevel logistic regression model with random slopes and intercepts for climate concern across countries and interaction between climate concern and ideological placement")
 
 
 
